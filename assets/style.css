@@ -599,6 +599,23 @@ a.project-card:focus-visible {
   font-size: clamp(1.75rem, 3vw, 2.35rem);
 }
 
+.project-paper-titles {
+  max-width: 570px;
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 0.78rem;
+  line-height: 1.55;
+}
+
+.project-paper-titles p {
+  margin-bottom: 0;
+}
+
+.project-paper-titles p + p {
+  margin-top: 0.55rem;
+  padding-top: 0.55rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+
 .project-card > p:not(.project-kicker),
 .testbed-copy > p:not(.project-kicker) {
   max-width: 570px;
