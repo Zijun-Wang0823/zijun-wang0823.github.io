@@ -291,6 +291,11 @@ h2 {
 }
 
 .code-card:nth-child(2) { background: var(--teal); }
+.code-card:nth-child(3) {
+  grid-column: 1 / -1;
+  min-height: 360px;
+  background: #58476d;
+}
 .code-card:hover, .code-card:focus-visible { transform: translateY(-5px); box-shadow: 0 30px 70px rgba(28, 45, 52, .18); }
 .code-card .code-tag { color: #f8b497; }
 .code-card p { max-width: 520px; color: rgba(255, 255, 255, .72); }
