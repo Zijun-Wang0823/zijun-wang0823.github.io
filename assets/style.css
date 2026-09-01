@@ -564,6 +564,7 @@ a.project-card:focus-visible {
 .project-navy { background: var(--ink); }
 .project-teal { background: var(--teal); }
 .project-plum { background: var(--plum); }
+.project-rust { background: var(--accent-dark); }
 
 .project-card::after {
   content: "";
