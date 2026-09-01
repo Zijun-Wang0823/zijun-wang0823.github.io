@@ -703,11 +703,32 @@ footer {
   text-underline-offset: 0.25em;
 }
 
-.copyright {
+.footer-quote {
   grid-column: 1 / -1;
   margin: 2.5rem 0 0;
-  padding-top: 1.2rem;
+  padding-top: 1.8rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1.5rem;
   border-top: 1px solid var(--line);
+}
+
+.footer-quote p {
+  margin: 0;
+  font: 500 clamp(1.15rem, 2.2vw, 1.55rem)/1.35 var(--serif);
+}
+
+.footer-quote cite {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-style: normal;
+}
+
+.copyright {
+  grid-column: 1 / -1;
+  margin: 0;
   color: var(--muted);
   font-size: 0.7rem;
 }
@@ -805,6 +826,7 @@ footer {
   .project-card { min-height: 430px; }
   .testbed-card { min-height: auto; }
   .testbed-media { min-height: 210px; }
+  .footer-quote { align-items: flex-start; flex-direction: column; gap: 0.65rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
