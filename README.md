@@ -1,17 +1,29 @@
 # Zijun Wang — Academic Homepage
 
-Source for [zijun-wang0823.github.io](https://zijun-wang0823.github.io/).
+Source for [zijun-wang0823.github.io](https://zijun-wang0823.github.io/). The site is dependency-free and can be served directly by GitHub Pages.
 
-This is a dependency-free static academic homepage designed for GitHub Pages. Edit `index.html` to update publications or profile information and `assets/style.css` to change the visual design.
+## Local preview
 
-## Publish with GitHub Pages
+From this directory, run:
 
-1. Create a public repository named `zijun-wang0823.github.io`.
-2. Upload the files in this directory to the repository's `main` branch.
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**, then select `main` and `/(root)`.
-5. The site will be available at `https://zijun-wang0823.github.io/` after GitHub finishes the deployment.
+```powershell
+python -m http.server 8000
+```
 
-## Updating publications
+Then open `http://127.0.0.1:8000/`.
 
-Publication entries are plain HTML in `index.html`. Copy an existing `<li class="publication">` block, change its metadata and links, then commit the update.
+## Content updates
+
+- Profile, education summary, news, research areas, publications, and projects are in `index.html`.
+- Global colors, typography, layout, responsive behavior, and focus states are in `assets/style.css`.
+- Replace the stable CV file at `assets/cv/Zijun_Wang_CV_Wireless_Algorithms_Testbed.pdf` when a new CV is ready; the HTML link does not need to change.
+- When replacing the portrait or testbed photograph, export optimized JPEG and WebP versions into `assets/images/` using the existing filenames.
+- Asset provenance is documented in `ASSET_SOURCES.md`.
+
+## Publication policy
+
+The homepage follows Zijun Wang's Google Scholar profile: a paper is included when it appears there, including indexed arXiv preprints. Resume-only submitted or ongoing work is not added until it is visible on Scholar.
+
+## Publishing
+
+GitHub Pages can serve the repository root from the `main` branch. Review the local build before committing or pushing changes.

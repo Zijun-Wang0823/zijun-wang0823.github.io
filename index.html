@@ -3,241 +3,363 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0b1620">
-  <meta name="description" content="Zijun Wang — wireless communications and signal processing researcher at the University at Buffalo.">
-  <meta property="og:title" content="Zijun Wang | Wireless Communications Research">
-  <meta property="og:description" content="Research in near-field communications, beam training, and signal processing.">
+  <meta name="theme-color" content="#f4f1e9">
+  <meta name="description" content="Zijun Wang is a Ph.D. student at the University at Buffalo working on near-field communications and sensing, signal processing, and mmWave testbeds.">
+  <meta name="keywords" content="Zijun Wang, near-field communications, beam training, signal processing, mmWave, University at Buffalo">
+  <meta name="author" content="Zijun Wang">
+  <link rel="canonical" href="https://zijun-wang0823.github.io/">
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+  <meta property="og:title" content="Zijun Wang | Wireless Communications Researcher">
+  <meta property="og:description" content="Near-field communications and sensing, array signal processing, learning-assisted wireless systems, and 28 GHz prototyping.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://zijun-wang0823.github.io/">
-  <meta property="og:image" content="https://avatars.githubusercontent.com/u/139487160?v=4">
-  <title>Zijun Wang | Wireless Communications Research</title>
+  <meta property="og:image" content="https://zijun-wang0823.github.io/assets/images/zijun-wang-portrait.jpg">
+  <meta property="og:image:alt" content="Portrait of Zijun Wang outdoors">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Zijun Wang | Wireless Communications Researcher">
+  <meta name="twitter:description" content="Near-field communications and sensing, signal processing, and mmWave prototyping at the University at Buffalo.">
+  <meta name="twitter:image" content="https://zijun-wang0823.github.io/assets/images/zijun-wang-portrait.jpg">
+
+  <title>Zijun Wang | Wireless Communications Researcher at University at Buffalo</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,500;6..72,600&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Zijun Wang",
+    "alternateName": "王梓骏",
+    "url": "https://zijun-wang0823.github.io/",
+    "image": "https://zijun-wang0823.github.io/assets/images/zijun-wang-portrait.jpg",
+    "jobTitle": "Ph.D. Student in Electrical Engineering",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "University at Buffalo, The State University of New York",
+      "url": "https://www.buffalo.edu/"
+    },
+    "email": "mailto:zwang267@buffalo.edu",
+    "sameAs": [
+      "https://scholar.google.com/citations?user=ac17SikAAAAJ&hl=en",
+      "https://github.com/Zijun-Wang0823"
+    ],
+    "knowsAbout": [
+      "Near-field communications and sensing",
+      "Array signal processing",
+      "Beam training and tracking",
+      "Sparse signal recovery",
+      "mmWave prototyping"
+    ]
+  }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
-    <a class="wordmark" href="#top" aria-label="Zijun Wang, home">ZW<span>.</span></a>
-    <nav aria-label="Main navigation">
-      <a href="#research">Research</a>
-      <a href="#publications">Publications</a>
-      <a href="#code">Code</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <div class="header-inner">
+      <a class="wordmark" href="#top" aria-label="Zijun Wang, home">ZW<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#news">News</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
   <main id="main">
-    <section class="hero" id="top">
+    <section class="hero" id="top" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow">Wireless communications · Signal processing</p>
-        <h1>Zijun Wang</h1>
-        <p class="lead">I study efficient beam training and tracking for large-aperture wireless systems, with an emphasis on near-field propagation, sparse reconstruction, and learning-assisted signal processing.</p>
-        <p class="affiliation">University at Buffalo, The State University of New York</p>
-        <div class="hero-links" aria-label="Profile links">
-          <a class="button primary" href="https://scholar.google.com/citations?user=ac17SikAAAAJ&amp;hl=en">Google Scholar</a>
+        <p class="eyebrow">Wireless communications · Reinforcement learning · Hardware prototyping</p>
+        <h1 id="hero-title">Zijun<br>Wang<span>.</span></h1>
+        <p class="name-cn" lang="zh-Hans">王梓骏</p>
+        <p class="role">Ph.D. student in Electrical Engineering at the University at Buffalo</p>
+        <p class="lead">I develop model-driven and learning-assisted signal processing methods for near-field communications and sensing, with applications to beam training and tracking, sparse array design, and mmWave prototyping.</p>
+        <p class="affiliation">I received my B.Eng. in Telecommunications Engineering from Nanjing University in 2024. I am now pursuing the Ph.D. degree at UB, advised by <a href="https://engineering.buffalo.edu/electrical-and-computer-engineering/faculty/faculty_directory.host.html/content/shared/engineering/ee/profiles/zhang-rui.detail.latest-news.html">Prof. Rui Zhang</a>.</p>
+
+        <div class="hero-actions" aria-label="Profile and contact links">
+          <a class="button primary" href="assets/cv/Zijun_Wang_CV_Wireless_Algorithms_Testbed.pdf" download>Download CV</a>
+          <a class="button" href="https://scholar.google.com/citations?user=ac17SikAAAAJ&amp;hl=en">Google Scholar</a>
           <a class="button" href="https://github.com/Zijun-Wang0823">GitHub</a>
-          <a class="text-link" href="mailto:zwang267@buffalo.edu">zwang267@buffalo.edu <span aria-hidden="true">↗</span></a>
+          <a class="inline-link" href="mailto:zwang267@buffalo.edu">Email <span aria-hidden="true">↗</span></a>
         </div>
+
+        <ul class="hero-topics" aria-label="Primary research topics">
+          <li>Near-field MIMO</li>
+          <li>Sparse inference</li>
+          <li>28 GHz testbeds</li>
+          <li>Deep reinforcement learning</li>
+        </ul>
       </div>
-      <div class="portrait-wrap" aria-label="Portrait of Zijun Wang">
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <img class="portrait" src="https://avatars.githubusercontent.com/u/139487160?v=4" alt="Zijun Wang">
-      </div>
+
+      <figure class="portrait-card">
+        <div class="portrait-frame">
+          <picture>
+            <source srcset="assets/images/zijun-wang-portrait.webp" type="image/webp">
+            <img src="assets/images/zijun-wang-portrait.jpg" alt="Portrait of Zijun Wang outdoors" width="900" height="1081" fetchpriority="high">
+          </picture>
+        </div>
+        <figcaption>
+          <span>Buffalo, New York</span>
+          <span class="signal-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        </figcaption>
+      </figure>
     </section>
 
-    <section class="section research" id="research">
-      <div class="section-heading">
-        <p class="section-number">01</p>
-        <h2>Research</h2>
-      </div>
-      <div class="research-grid">
-        <article>
-          <p class="research-index">A</p>
-          <h3>Near-field beam management</h3>
-          <p>Low-overhead acquisition, refinement, and tracking for extremely large antenna arrays operating in the radiative near field.</p>
-        </article>
-        <article>
-          <p class="research-index">B</p>
-          <h3>Sparse signal recovery</h3>
-          <p>Physics-aware codebooks and sparse reconstruction for multi-user and multipath channels under limited feedback.</p>
-        </article>
-        <article>
-          <p class="research-index">C</p>
-          <h3>Learning-assisted wireless systems</h3>
-          <p>Bandit learning and cross-layer methods that adapt beam decisions to uncertainty, mobility, and delay-sensitive traffic.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="publications">
-      <div class="section-heading publication-heading">
+    <section class="section news-section" id="news" aria-labelledby="news-title">
+      <div class="section-heading compact-heading">
         <div>
-          <p class="section-number">02</p>
-          <h2>Selected publications</h2>
+          <p class="section-number">01 / News</p>
+          <h2 id="news-title">Recent updates</h2>
         </div>
-        <a class="text-link" href="https://scholar.google.com/citations?user=ac17SikAAAAJ&amp;hl=en">Complete list on Scholar <span aria-hidden="true">↗</span></a>
+        <p class="section-intro">Selected publication and open-source milestones.</p>
       </div>
 
-      <ol class="publication-list">
-        <li class="publication featured">
-          <div class="pub-year">2026</div>
-          <div class="pub-body">
-            <p class="pub-venue">IEEE Transactions on Wireless Communications</p>
-            <h3>Precise Near-Field Beam Training with DFT Codebook Based on Amplitude-Only Measurement</h3>
-            <p class="authors"><strong>Zijun Wang</strong>, Shawn Tsai, Rama Kiran, and Rui Zhang</p>
-            <div class="pub-links">
-              <a href="https://ieeexplore.ieee.org/abstract/document/11473325/">Paper</a>
-              <a href="https://arxiv.org/abs/2506.20783">arXiv</a>
-              <a href="https://github.com/Zijun-Wang0823/near-field-amplitude-only-beam-training">Code</a>
-            </div>
-          </div>
+      <ol class="news-list">
+        <li>
+          <time datetime="2026-08">Aug. 2026</time>
+          <p><strong>Adaptive Payload-Aided Near-Field Beam Tracking via Thompson Sampling</strong> is now available on arXiv and indexed by Google Scholar.</p>
         </li>
-
-        <li class="publication">
-          <div class="pub-year">2026</div>
-          <div class="pub-body">
-            <p class="pub-venue">IEEE Wireless Communications Letters</p>
-            <h3>Compressive Beam-Pattern-Aware Near-Field Beam Training via Total Variation Denoising</h3>
-            <p class="authors"><strong>Zijun Wang</strong>, A. M. Nivetha, Ye Hu, and Rui Zhang</p>
-            <div class="pub-links"><a href="https://scholar.google.com/citations?view_op=view_citation&amp;user=ac17SikAAAAJ&amp;citation_for_view=ac17SikAAAAJ:IWHjjKOFINEC">Scholar</a></div>
-          </div>
+        <li>
+          <time datetime="2026-04">Apr. 2026</time>
+          <p><strong>Efficient Near Field Beam Tracking via Thompson Sampling</strong> is now available on arXiv and indexed by Google Scholar.</p>
         </li>
-
-        <li class="publication">
-          <div class="pub-year">2026</div>
-          <div class="pub-body">
-            <p class="pub-venue">arXiv</p>
-            <h3>GP Bandit-Assisted Two-Stage Sparse Phase Retrieval for Amplitude-Only Near-Field Beam Training</h3>
-            <p class="authors"><strong>Zijun Wang</strong>, Shawn Tsai, Ye Hu, and Rui Zhang</p>
-            <div class="pub-links"><a href="https://arxiv.org/abs/2603.07477">arXiv</a></div>
-          </div>
+        <li>
+          <time datetime="2026">2026</time>
+          <p>New articles appeared in <strong>IEEE Transactions on Wireless Communications</strong> and <strong>IEEE Wireless Communications Letters</strong>.</p>
         </li>
-
-        <li class="publication">
-          <div class="pub-year">2026</div>
-          <div class="pub-body">
-            <p class="pub-venue">arXiv</p>
-            <h3>Efficient Near Field Beam Tracking via Thompson Sampling</h3>
-            <p class="authors">J. Liu, <strong>Zijun Wang</strong>, Shawn Tsai, and Rui Zhang</p>
-            <div class="pub-links"><a href="https://arxiv.org/abs/2604.24006">arXiv</a></div>
-          </div>
-        </li>
-
-        <li class="publication">
-          <div class="pub-year">2026</div>
-          <div class="pub-body">
-            <p class="pub-venue">arXiv</p>
-            <h3>Adaptive Payload-Aided Near-Field Beam Tracking via Thompson Sampling</h3>
-            <p class="authors">J. Liu, <strong>Zijun Wang</strong>, Shawn Tsai, and Rui Zhang</p>
-            <div class="pub-links"><a href="https://arxiv.org/abs/2608.21770">arXiv</a></div>
-          </div>
-        </li>
-
-        <li class="publication">
-          <div class="pub-year">2026</div>
-          <div class="pub-body">
-            <p class="pub-venue">arXiv</p>
-            <h3>Efficient, Adaptive Near-Field Beam Training Based on Linear Bandit</h3>
-            <p class="authors">J. Liu, <strong>Zijun Wang</strong>, and Rui Zhang</p>
-            <div class="pub-links"><a href="https://arxiv.org/abs/2603.09893">arXiv</a></div>
-          </div>
-        </li>
-
-        <li class="publication featured">
-          <div class="pub-year">2025</div>
-          <div class="pub-body">
-            <p class="pub-venue">IEEE GLOBECOM 2025</p>
-            <h3>Sparsity-Aware Near-Field Beam Training via Multi-Beam Combination</h3>
-            <p class="authors"><strong>Zijun Wang</strong>, Rama Kiran, Jinesh Nair, Chien-Hua Chen, Tzu-Han Chou, Shawn Tsai, and Rui Zhang</p>
-            <div class="pub-links">
-              <a href="https://ieeexplore.ieee.org/abstract/document/11431959/">Paper</a>
-              <a href="https://arxiv.org/abs/2505.08267">arXiv</a>
-              <a href="https://github.com/Zijun-Wang0823/sparsity-aware-near-field-multibeam">Code</a>
-            </div>
-          </div>
-        </li>
-
-        <li class="publication featured">
-          <div class="pub-year">2025</div>
-          <div class="pub-body">
-            <p class="pub-venue">IEEE GLOBECOM 2025</p>
-            <h3>Low-Complexity Near-Field Beam Training with DFT Codebook Based on Beam Pattern Analysis</h3>
-            <p class="authors"><strong>Zijun Wang</strong>, Rama Kiran, Shawn Tsai, and Rui Zhang</p>
-            <div class="pub-links">
-              <a href="https://ieeexplore.ieee.org/document/11432575">IEEE</a>
-              <a href="https://arxiv.org/abs/2503.21954">arXiv</a>
-              <a href="https://github.com/Zijun-Wang0823/near-field-amplitude-only-beam-training">Code</a>
-            </div>
-          </div>
-        </li>
-
-        <li class="publication featured">
-          <div class="pub-year">2025</div>
-          <div class="pub-body">
-            <p class="pub-venue">Workshop paper · NeurIPS 2025 AI4NextG · OpenReview</p>
-            <h3>Cross-Layer Design for Near-Field mmWave Beam Management and Scheduling under Delay-Sensitive Traffic</h3>
-            <p class="authors"><strong>Zijun Wang</strong>, Anjali Omer, Jacob Chakareski, Nicholas Mastronarde, and Rui Zhang</p>
-            <div class="pub-links">
-              <a href="https://openreview.net/forum?id=ySE32cqT5D">OpenReview</a>
-              <a href="https://openreview.net/pdf?id=ySE32cqT5D">PDF</a>
-              <a href="https://github.com/Zijun-Wang0823/cross-layer-near-field-beam-management">Code</a>
-            </div>
-          </div>
+        <li>
+          <time datetime="2025-12">Dec. 2025</time>
+          <p>Two near-field beam-training papers were published at <strong>IEEE GLOBECOM 2025</strong>, with complete research code released on GitHub.</p>
         </li>
       </ol>
     </section>
 
-    <section class="section code-section" id="code">
+    <section class="section" id="research" aria-labelledby="research-title">
       <div class="section-heading">
-        <p class="section-number">03</p>
-        <h2>Open research code</h2>
+        <div>
+          <p class="section-number">02 / Research</p>
+          <h2 id="research-title">Research areas</h2>
+        </div>
+        <p class="section-intro">Physics-aware algorithms that connect propagation models, inference, control, and real RF hardware.</p>
       </div>
-      <div class="code-grid">
-        <a class="code-card" href="https://github.com/Zijun-Wang0823/near-field-amplitude-only-beam-training">
-          <span class="code-tag">IEEE TWC · 2026 · IEEE GLOBECOM · 2025</span>
-          <h3>Amplitude-only beam training and localization</h3>
-          <p class="code-paper-title">Precise Near-Field Beam Training with DFT Codebook Based on Amplitude-Only Measurement</p>
-          <p class="code-authors"><strong>Zijun Wang</strong>, Shawn Tsai, Rama Kiran, and Rui Zhang</p>
-          <p class="code-paper-title">Low-Complexity Near-Field Beam Training with DFT Codebook Based on Beam Pattern Analysis</p>
-          <p class="code-authors"><strong>Zijun Wang</strong>, Rama Kiran, Shawn Tsai, and Rui Zhang</p>
-          <p class="code-description">Shared codebase for both papers · Python · Jupyter · Coarse estimation, iterative refinement, SA/Adam MLE, baselines, CRB, and paper figure utilities.</p>
-          <span class="card-arrow" aria-hidden="true">↗</span>
+
+      <div class="research-grid">
+        <article>
+          <p class="research-index">A</p>
+          <h3>Near-field communications &amp; sensing</h3>
+          <p>Low-overhead beam acquisition, refinement, and tracking for large apertures under spherical-wave propagation.</p>
+          <ul><li>DFT and Fresnel codebooks</li><li>Amplitude-only measurements</li><li>Beam-pattern analysis</li></ul>
+        </article>
+        <article>
+          <p class="research-index">B</p>
+          <h3>Array &amp; beamspace signal processing</h3>
+          <p>Structured recovery methods that exploit spatial sparsity and codebook geometry for efficient channel acquisition.</p>
+          <ul><li>Multi-beam combination</li><li>Total variation denoising</li><li>Off-grid refinement</li></ul>
+        </article>
+        <article>
+          <p class="research-index">C</p>
+          <h3>Learning &amp; cross-layer optimization</h3>
+          <p>Queue-aware decision making that jointly manages beam alignment, scheduling, and delay-sensitive traffic.</p>
+          <ul><li>Thompson / linear / GP bandits</li><li>Proximal policy optimization</li><li>Cross-layer scheduling</li></ul>
+        </article>
+        <article>
+          <p class="research-index">D</p>
+          <h3>Wireless systems &amp; testbeds</h3>
+          <p>End-to-end 28 GHz prototyping spanning waveform generation, synchronized capture, beam control, and evaluation.</p>
+          <ul><li>USRP X410 and UHD</li><li>TMYTEK 8×8 phased arrays</li><li>MATLAB / Python automation</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section publications-section" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading publication-heading">
+        <div>
+          <p class="section-number">03 / Publications</p>
+          <h2 id="publications-title">Selected publications</h2>
+        </div>
+        <a class="inline-link" href="https://scholar.google.com/citations?user=ac17SikAAAAJ&amp;hl=en">Complete list on Scholar <span aria-hidden="true">↗</span></a>
+      </div>
+
+      <div class="publication-group">
+        <h3>Journal articles</h3>
+        <div class="publication-list">
+          <article class="publication featured">
+            <div class="pub-meta"><span class="pub-year">2026</span><span class="status-badge">Open code</span></div>
+            <div class="pub-body">
+              <p class="pub-venue">IEEE Transactions on Wireless Communications · vol. 25 · pp. 14503–14516</p>
+              <h4>Precise Near-Field Beam Training with DFT Codebook Based on Amplitude-Only Measurement</h4>
+              <p class="authors"><strong>Zijun Wang</strong>, Shawn Tsai, Rama Kiran, and Rui Zhang</p>
+              <div class="pub-links"><a href="https://ieeexplore.ieee.org/document/11473325">IEEE</a><a href="https://arxiv.org/abs/2506.20783">arXiv</a><a href="https://github.com/Zijun-Wang0823/near-field-amplitude-only-beam-training">Code</a></div>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="pub-meta"><span class="pub-year">2026</span></div>
+            <div class="pub-body">
+              <p class="pub-venue">IEEE Wireless Communications Letters · vol. 15 · pp. 2914–2918</p>
+              <h4>Compressive Beam-Pattern-Aware Near-Field Beam Training via Total Variation Denoising</h4>
+              <p class="authors"><strong>Zijun Wang</strong>, Maria Nivetha A, Ye Hu, and Rui Zhang</p>
+              <div class="pub-links"><a href="https://ieeexplore.ieee.org/document/11503306">IEEE</a><a href="https://arxiv.org/abs/2601.22243">arXiv</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="publication-group">
+        <h3>Conference &amp; workshop papers</h3>
+        <div class="publication-list">
+          <article class="publication featured">
+            <div class="pub-meta"><span class="pub-year">2025</span><span class="status-badge">Open code</span></div>
+            <div class="pub-body">
+              <p class="pub-venue">IEEE GLOBECOM 2025 · pp. 2795–2800</p>
+              <h4>Sparsity-Aware Near-Field Beam Training via Multi-Beam Combination</h4>
+              <p class="authors"><strong>Zijun Wang</strong>, Rama Kiran, Jinesh Nair, Chien-Hua Chen, Tzu-Han Chou, Shawn Tsai, and Rui Zhang</p>
+              <div class="pub-links"><a href="https://ieeexplore.ieee.org/document/11431959">IEEE</a><a href="https://arxiv.org/abs/2505.08267">arXiv</a><a href="https://github.com/Zijun-Wang0823/sparsity-aware-near-field-multibeam">Code</a></div>
+            </div>
+          </article>
+
+          <article class="publication featured">
+            <div class="pub-meta"><span class="pub-year">2025</span><span class="status-badge">Open code</span></div>
+            <div class="pub-body">
+              <p class="pub-venue">IEEE GLOBECOM 2025</p>
+              <h4>Low-Complexity Near-Field Beam Training with DFT Codebook Based on Beam Pattern Analysis</h4>
+              <p class="authors"><strong>Zijun Wang</strong>, Rama Kiran, Shawn Tsai, and Rui Zhang</p>
+              <div class="pub-links"><a href="https://ieeexplore.ieee.org/document/11432575">IEEE</a><a href="https://arxiv.org/abs/2503.21954">arXiv</a><a href="https://github.com/Zijun-Wang0823/near-field-amplitude-only-beam-training">Code</a></div>
+            </div>
+          </article>
+
+          <article class="publication featured">
+            <div class="pub-meta"><span class="pub-year">2025</span><span class="status-badge">Open code</span></div>
+            <div class="pub-body">
+              <p class="pub-venue">NeurIPS 2025 AI4NextG Workshop · OpenReview</p>
+              <h4>Cross-Layer Design for Near-Field mmWave Beam Management and Scheduling under Delay-Sensitive Traffic</h4>
+              <p class="authors"><strong>Zijun Wang</strong>, Anjali Omer, Jacob Chakareski, Nicholas Mastronarde, and Rui Zhang</p>
+              <div class="pub-links"><a href="https://openreview.net/forum?id=ySE32cqT5D">OpenReview</a><a href="https://openreview.net/pdf?id=ySE32cqT5D">PDF</a><a href="https://arxiv.org/abs/2511.12470">arXiv</a><a href="https://github.com/Zijun-Wang0823/cross-layer-near-field-beam-management">Code</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="publication-group">
+        <h3>Preprints listed on Google Scholar</h3>
+        <div class="publication-list">
+          <article class="publication">
+            <div class="pub-meta"><span class="pub-year">Aug. 2026</span></div>
+            <div class="pub-body">
+              <p class="pub-venue">arXiv:2608.21770</p>
+              <h4>Adaptive Payload-Aided Near-Field Beam Tracking via Thompson Sampling</h4>
+              <p class="authors">J. Liu, <strong>Zijun Wang</strong>, Shawn Tsai, and Rui Zhang</p>
+              <div class="pub-links"><a href="https://arxiv.org/abs/2608.21770">arXiv</a></div>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="pub-meta"><span class="pub-year">Apr. 2026</span></div>
+            <div class="pub-body">
+              <p class="pub-venue">arXiv:2604.24006</p>
+              <h4>Efficient Near Field Beam Tracking via Thompson Sampling</h4>
+              <p class="authors">J. Liu, <strong>Zijun Wang</strong>, Shawn Tsai, and Rui Zhang</p>
+              <div class="pub-links"><a href="https://arxiv.org/abs/2604.24006">arXiv</a></div>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="pub-meta"><span class="pub-year">Mar. 2026</span></div>
+            <div class="pub-body">
+              <p class="pub-venue">arXiv:2603.09893</p>
+              <h4>Efficient, Adaptive Near-Field Beam Training Based on Linear Bandit</h4>
+              <p class="authors">J. Liu, <strong>Zijun Wang</strong>, and Rui Zhang</p>
+              <div class="pub-links"><a href="https://arxiv.org/abs/2603.09893">arXiv</a></div>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="pub-meta"><span class="pub-year">Mar. 2026</span></div>
+            <div class="pub-body">
+              <p class="pub-venue">arXiv:2603.07477</p>
+              <h4>GP Bandit-Assisted Two-Stage Sparse Phase Retrieval for Amplitude-Only Near-Field Beam Training</h4>
+              <p class="authors"><strong>Zijun Wang</strong>, Shawn Tsai, Ye Hu, and Rui Zhang</p>
+              <div class="pub-links"><a href="https://arxiv.org/abs/2603.07477">arXiv</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-number">04 / Projects</p>
+          <h2 id="projects-title">Open-source projects &amp; testbeds</h2>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <a class="project-card project-navy" href="https://github.com/Zijun-Wang0823/near-field-amplitude-only-beam-training">
+          <span class="project-number">01</span>
+          <p class="project-kicker">Python · Jupyter · IEEE TWC / GLOBECOM</p>
+          <h3>Amplitude-only near-field beam training</h3>
+          <p>Shared implementation for coarse acquisition, iterative refinement, simulated annealing / Adam MLE, baselines, CRB evaluation, and paper figures.</p>
+          <ul class="tag-list"><li>DFT codebook</li><li>MLE</li><li>Localization</li></ul>
+          <span class="project-link">View repository <span aria-hidden="true">↗</span></span>
         </a>
-        <a class="code-card" href="https://github.com/Zijun-Wang0823/sparsity-aware-near-field-multibeam">
-          <span class="code-tag">IEEE GLOBECOM · 2025</span>
-          <h3>Sparsity-aware multi-beam combination</h3>
-          <p class="code-paper-title">Sparsity-Aware Near-Field Beam Training via Multi-Beam Combination</p>
-          <p class="code-authors"><strong>Zijun Wang</strong>, Rama Kiran, Jinesh Nair, Chien-Hua Chen, Tzu-Han Chou, Shawn Tsai, and Rui Zhang</p>
-          <p class="code-description">Python · Jupyter · DFT and near-field codebooks, LASSO reconstruction, off-grid refinement, and Figs. 2–9.</p>
-          <span class="card-arrow" aria-hidden="true">↗</span>
+
+        <a class="project-card project-teal" href="https://github.com/Zijun-Wang0823/sparsity-aware-near-field-multibeam">
+          <span class="project-number">02</span>
+          <p class="project-kicker">Python · Jupyter · IEEE GLOBECOM</p>
+          <h3>Sparsity-aware multi-beam training</h3>
+          <p>DFT and near-field codebooks, multi-beam measurements, LASSO reconstruction, off-grid refinement, baselines, and the complete figure pipeline.</p>
+          <ul class="tag-list"><li>Sparse recovery</li><li>LASSO</li><li>Off-grid</li></ul>
+          <span class="project-link">View repository <span aria-hidden="true">↗</span></span>
         </a>
-        <a class="code-card" href="https://github.com/Zijun-Wang0823/cross-layer-near-field-beam-management">
-          <span class="code-tag">NeurIPS AI4NextG Workshop · 2025</span>
-          <h3>Cross-layer near-field beam management</h3>
-          <p class="code-paper-title">Cross-Layer Design for Near-Field mmWave Beam Management and Scheduling under Delay-Sensitive Traffic</p>
-          <p class="code-authors"><strong>Zijun Wang</strong>, Anjali Omer, Jacob Chakareski, Nicholas Mastronarde, and Rui Zhang</p>
-          <p class="code-description">Python · Jupyter · Near-field UPA channel, DFT/TSP beam training, queue-aware PPO, DFT/near-field/full-CSI baselines, ablations, paper figures, and two trained checkpoints.</p>
-          <span class="card-arrow" aria-hidden="true">↗</span>
+
+        <a class="project-card project-plum" href="https://github.com/Zijun-Wang0823/cross-layer-near-field-beam-management">
+          <span class="project-number">03</span>
+          <p class="project-kicker">Python · Jupyter · NeurIPS AI4NextG</p>
+          <h3>Cross-layer beam management</h3>
+          <p>Near-field UPA channels, queue-aware PPO, DFT / near-field / full-CSI baselines, ablations, trained checkpoints, and publication figures.</p>
+          <ul class="tag-list"><li>PPO</li><li>Scheduling</li><li>Delay-sensitive traffic</li></ul>
+          <span class="project-link">View repository <span aria-hidden="true">↗</span></span>
+        </a>
+
+        <a class="project-card testbed-card" href="https://github.com/Zijun-Wang0823/tlkcore-examples-master">
+          <span class="project-number">04</span>
+          <div class="testbed-copy">
+            <p class="project-kicker">28 GHz communication &amp; sensing platform</p>
+            <h3>End-to-end mmWave prototyping</h3>
+            <p>Experience integrating a USRP X410, UHD 4.8, TMYTEK 8×8 phased arrays, YTTEK frequency converters, horn antennas, and laboratory instrumentation.</p>
+            <ul class="tag-list"><li>Waveform replay</li><li>Synchronized capture</li><li>Beam control</li><li>MATLAB / UHD automation</li></ul>
+            <span class="project-link">View example repository <span aria-hidden="true">↗</span></span>
+          </div>
+          <picture class="testbed-media">
+            <source srcset="assets/images/zijun-wang-mmwave-testbed.webp" type="image/webp">
+            <img src="assets/images/zijun-wang-mmwave-testbed.jpg" alt="28 GHz wireless testbed with phased-array antennas, RF equipment, and a control laptop" width="652" height="490" loading="lazy">
+          </picture>
         </a>
       </div>
     </section>
   </main>
 
   <footer id="contact">
-    <div>
-      <p class="eyebrow">Let’s connect</p>
-      <h2>Research conversations are welcome.</h2>
+    <div class="footer-main">
+      <p class="eyebrow">Contact</p>
+      <h2>Let’s talk about wireless systems.</h2>
+      <p>For research discussions, collaboration, or questions about the open-source implementations, email is the best way to reach me.</p>
+      <a class="footer-email" href="mailto:zwang267@buffalo.edu">zwang267@buffalo.edu <span aria-hidden="true">↗</span></a>
     </div>
-    <div class="footer-links">
-      <a href="mailto:zwang267@buffalo.edu">Email</a>
-      <a href="https://scholar.google.com/citations?user=ac17SikAAAAJ&amp;hl=en">Scholar</a>
+    <div class="footer-links" aria-label="External profiles">
+      <a href="assets/cv/Zijun_Wang_CV_Wireless_Algorithms_Testbed.pdf">CV</a>
+      <a href="https://scholar.google.com/citations?user=ac17SikAAAAJ&amp;hl=en">Google Scholar</a>
       <a href="https://github.com/Zijun-Wang0823">GitHub</a>
+      <a href="#top">Back to top ↑</a>
     </div>
-    <p class="copyright">© 2026 Zijun Wang</p>
+    <p class="copyright">© 2026 Zijun Wang · Built as a lightweight, accessible static site.</p>
   </footer>
 </body>
 </html>
