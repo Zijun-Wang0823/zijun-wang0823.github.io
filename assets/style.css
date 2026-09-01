@@ -278,7 +278,7 @@ h2 {
 
 .code-card {
   position: relative;
-  min-height: 300px;
+  min-height: 430px;
   padding: clamp(1.75rem, 4vw, 3rem);
   overflow: hidden;
   border: 1px solid var(--line);
@@ -294,6 +294,23 @@ h2 {
 .code-card:hover, .code-card:focus-visible { transform: translateY(-5px); box-shadow: 0 30px 70px rgba(28, 45, 52, .18); }
 .code-card .code-tag { color: #f8b497; }
 .code-card p { max-width: 520px; color: rgba(255, 255, 255, .72); }
+.code-card .code-paper-title {
+  margin-bottom: .8rem;
+  color: white;
+  font: 500 1.2rem/1.35 var(--serif);
+}
+.code-card .code-authors {
+  margin-bottom: 1.25rem;
+  color: rgba(255, 255, 255, .64);
+  font-size: .82rem;
+  line-height: 1.5;
+}
+.code-card .code-authors strong { color: white; }
+.code-card .code-description {
+  padding-top: 1.15rem;
+  border-top: 1px solid rgba(255, 255, 255, .18);
+  font-size: .88rem;
+}
 .card-arrow { position: absolute; right: 2rem; bottom: 1.5rem; font-size: 2rem; }
 
 footer {
