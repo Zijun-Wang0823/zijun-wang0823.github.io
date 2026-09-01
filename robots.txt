@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zijun-wang0823.github.io/sitemap.xml
